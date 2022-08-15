@@ -1,0 +1,66 @@
+# Global Ignores
+.DS_Store
+.project
+*.cache.*
+.idea
+web.config
+"Icon\r"
+WEB-INF/**
+.env
+/*.log
+
+# Build Dependencies
+coldbox/*
+artifacts/**
+build/build.number
+build/apidocs/docbox
+build/resources/WEB-INF/*
+build/build-contentbox/**
+build/build-forgebox/**
+build/dependencies
+
+# Logs
+config/logs/**
+
+# Engines + Docker Libraries
+.engines
+bin/.db/**
+tests/resources/dbs/.db/**
+
+# UI Dependencies
+**/node_modules/**
+**/app_modules/**
+**/bower_components/**
+**/app_modules/**
+workbench/app_modules
+
+# webpack working compilation assets
+includes/js
+**/rev-manifest.json
+
+# Module Dependencies
+modules/contentbox/modules/contentbox-admin/includes/js
+modules/contentbox/modules/contentbox-admin/includes/css
+modules/contentbox/modules/contentbox-admin/includes/fonts
+modules/contentbox/modules/contentbox-admin/includes/rev-manifest.json
+modules/contentbox/modules/contentbox-admin/modules/contentbox-filebrowser/includes/js
+modules/contentbox/modules/contentbox-admin/modules/contentbox-ckeditor/includes
+modules/contentbox/modules/contentbox-admin/modules/contentbox-markdowneditor/includes
+modules/contentbox/themes/default/includes/fonts
+modules/contentbox/themes/default/includes/css
+modules/contentbox/themes/default/includes/js
+modules/contentbox/themes/default/includes/bootswatch
+modules/contentbox/themes/default/includes/rev-manifest.json
+modules/contentbox/themes/default/node_modules
+modules/route-visualizer/**
+modules/cbdebugger
+
+# ContentBox Dependency Modules
+modules/contentbox/modules/contentbox-deps/modules/*
+
+# Testing Dependencies
+modules/contentbox/themes/_test/**
+testbox/*
+/tests/**/logs/**
+/tests/test-results/*
+tests/resources/patches/tmp/
