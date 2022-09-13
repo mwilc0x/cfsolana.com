@@ -1,7 +1,7 @@
 {
     "name":"ContentBox Installer Module",
-    "version":"5.2.0+226",
-    "location":"https://downloads.ortussolutions.com/ortussolutions/contentbox/5.2.0/contentbox-installer-module-5.2.0.zip",
+    "version":"5.3.0+246",
+    "location":"https://downloads.ortussolutions.com/ortussolutions/contentbox/5.3.0/contentbox-installer-module-5.3.0.zip",
     "author":"Ortus Solutions <info@ortussolutions.com>",
     "slug":"contentbox-installer-module",
     "shortDescription":"The ContentBox installer module for new sites",

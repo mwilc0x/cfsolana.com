@@ -11,7 +11,7 @@ component {
 	this.title        = "ContentBox Email Two Factor";
 	this.author       = "Ortus Solutions, Corp";
 	this.webURL       = "https://www.ortussolutions.com";
-	this.version      = "5.2.0+226";
+	this.version      = "5.3.0+246";
 	this.description  = "Provides email two factor authentication";
 	this.dependencies = [ "contentbox-admin" ];
 	this.cfmapping    = "contentbox-email-twofactor";

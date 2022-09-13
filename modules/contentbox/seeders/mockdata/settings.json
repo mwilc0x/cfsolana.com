@@ -785,7 +785,7 @@
 	  "modifiedDate": "2021-04-22 16:41:42",
 	  "isDeleted": 0,
 	  "name": "cb_version",
-	  "value": "5.2.0+226",
+	  "value": "5.3.0+246",
 	  "isCore": 1,
 	  "FK_siteID": { "value" : "", "null" : true }
 	},

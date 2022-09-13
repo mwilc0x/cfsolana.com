@@ -1,3 +1,9 @@
+# folders part of build we don't need in source control
+modules/*
+coldbox/*
+contentbox-*
+server-start.sh
+
 # Global Ignores
 .DS_Store
 .project
@@ -38,28 +44,7 @@ workbench/app_modules
 includes/js
 **/rev-manifest.json
 
-# Module Dependencies
-modules/contentbox/modules/contentbox-admin/includes/js
-modules/contentbox/modules/contentbox-admin/includes/css
-modules/contentbox/modules/contentbox-admin/includes/fonts
-modules/contentbox/modules/contentbox-admin/includes/rev-manifest.json
-modules/contentbox/modules/contentbox-admin/modules/contentbox-filebrowser/includes/js
-modules/contentbox/modules/contentbox-admin/modules/contentbox-ckeditor/includes
-modules/contentbox/modules/contentbox-admin/modules/contentbox-markdowneditor/includes
-modules/contentbox/themes/default/includes/fonts
-modules/contentbox/themes/default/includes/css
-modules/contentbox/themes/default/includes/js
-modules/contentbox/themes/default/includes/bootswatch
-modules/contentbox/themes/default/includes/rev-manifest.json
-modules/contentbox/themes/default/node_modules
-modules/route-visualizer/**
-modules/cbdebugger
-
-# ContentBox Dependency Modules
-modules/contentbox/modules/contentbox-deps/modules/*
-
 # Testing Dependencies
-modules/contentbox/themes/_test/**
 testbox/*
 /tests/**/logs/**
 /tests/test-results/*

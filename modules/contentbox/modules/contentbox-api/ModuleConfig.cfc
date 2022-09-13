@@ -11,7 +11,7 @@ component {
 	this.title          = "ContentBox API";
 	this.author         = "Ortus Solutions, Corp";
 	this.webURL         = "https://www.ortussolutions.com";
-	this.version        = "5.2.0+226";
+	this.version        = "5.3.0+246";
 	this.description    = "ContentBox API Module";
 	this.modelNamespace = "contentbox-api";
 	this.cfmapping      = "contentbox-api";

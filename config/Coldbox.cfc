@@ -23,7 +23,7 @@ component {
 			appName                  : getSystemSetting( "APPNAME", "ContentBox Modular CMS" ),
 			eventName                : "event",
 			// Development Settings
-			reinitPassword           : getSystemSetting( "COLDBOX_REINITPASSWORD", "80510007F786609473A16ED1E45D9627" ),
+			reinitPassword           : getSystemSetting( "COLDBOX_REINITPASSWORD", "@fwPassword@" ),
 			reinitKey                : "fwreinit",
 			handlersIndexAutoReload  : false,
 			// Implicit Events
@@ -354,7 +354,7 @@ component {
 						"url"  : "https://www.apache.org/licenses/LICENSE-2.0.html"
 					},
 					// REQUIRED. The version of the OpenAPI document (which is distinct from the OpenAPI Specification version or the API implementation version).
-					"version" : "5.2.0"
+					"version" : "5.3.0"
 				},
 				// An array of Server Objects, which provide connectivity information to a target server. If the servers property is not provided, or is an empty array, the default value would be a Server Object with a url value of /.
 				// https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#serverObject

@@ -11,7 +11,7 @@ component {
 	this.title          = "ContentBox API v1.x";
 	this.author         = "Ortus Solutions, Corp";
 	this.webURL         = "https://www.ortussolutions.com";
-	this.version        = "5.2.0+226";
+	this.version        = "5.3.0+246";
 	this.description    = "ContentBox API v1.x Module";
 	// Module Entry Point
 	this.entryPoint     = "/cbapi/v1";

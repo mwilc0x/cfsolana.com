@@ -1,27 +1,21 @@
 {
-    "name":"ContentBox",
-    "web":{
-        "directoryBrowsing":false,
-        "rewrites":{
-            "enable":true
+	"name" : "ContentBox",
+    "web": {
+		"directoryBrowsing": false,
+        "rewrites": {
+            "enable": true
         }
     },
-    "JVM":{
-        "heapSize":"768"
-    },
-    "openBrowserURL":"/",
+    "JVM": {
+        "heapSize": "768"
+	},
+	"openBrowserURL" : "/",
     "trayicon":"modules_app/contentbox-custom/_content/ContentBoxIcon300.png",
-    "trayOptions":[
-        {
-            "label":"Open ContentBox Admin",
-            "action":"openbrowser",
-            "url":"/cbadmin",
-            "disabled":false,
-            "image":"modules_app/contentbox-custom/_content/ContentBoxIcon300.png"
-        }
-    ],
-    "app":{
-        "cfengine":"lucee@5"
-    },
-    "openBrowser":"false"
+    "trayOptions": [{
+        "label": "Open ContentBox Admin",
+        "action": "openbrowser",
+		"url":"/cbadmin",
+        "disabled": false,
+        "image":"modules_app/contentbox-custom/_content/ContentBoxIcon300.png"
+    }]
 }

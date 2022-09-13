@@ -1,7 +1,7 @@
 {
     "name":"ContentBox Modular CMS Installer",
-    "version":"5.2.0",
-    "location":"https://downloads.ortussolutions.com/ortussolutions/contentbox/5.2.0/contentbox-installer-5.2.0.zip",
+    "version":"5.3.0",
+    "location":"https://downloads.ortussolutions.com/ortussolutions/contentbox/5.3.0/contentbox-installer-5.3.0.zip",
     "author":"Ortus Solutions <info@ortussolutions.com>",
     "slug":"contentbox-installer",
     "shortDescription":"A ColdBox site configured and deployed with ContentBox CMS",
@@ -28,21 +28,15 @@
     ],
     "dependencies":{
         "coldbox":"^6.0.0",
-        "contentbox":"~5.2.0",
+        "contentbox":"~5.3.0",
         "commandbox-dotenv":"*",
         "commandbox-cfconfig":"*",
-        "commandbox-migrations":"*",
-        "cors":"^3.0.5",
-        "cbContactForm":"^2.1",
-        "route-visualizer":"^1.4.0+24"
+        "commandbox-migrations":"*"
     },
     "devDependencies":{},
     "installPaths":{
         "coldbox":"coldbox/",
-        "contentbox":"modules/contentbox/",
-        "cors":"modules/cors/",
-        "cbContactForm":"modules/contentbox/modules_user/cbContactForm/",
-        "route-visualizer":"modules/route-visualizer/"
+        "contentbox":"modules/contentbox/"
     },
     "ignores":[],
     "cfmigrations":{

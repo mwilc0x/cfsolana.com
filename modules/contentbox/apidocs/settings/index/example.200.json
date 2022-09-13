@@ -62,7 +62,7 @@
 		"cb_site_outgoingEmail": "lmajano@ortussolutions.com",
 		"cb_dashboard_newsfeed": "https://www.ortussolutions.com/blog/rss",
 		"cb_site_mail_tls": "false",
-		"cb_version": "5.2.0+226",
+		"cb_version": "5.3.0+246",
 		"cb_media_createFolders": "true",
 		"cb_media_provider": "CFContentMediaProvider",
 		"cb_security_min_password_length": "8",
