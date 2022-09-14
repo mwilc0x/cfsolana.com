@@ -8,6 +8,9 @@ box install contentbox-installer --force
 box install
 rm .env
 
+cp /tmp/config/Coldbox.cfc /app/config/
+cp /tmp/config/Router.cfc /app/config/
+
 box server start \
     trayEnable=false \
     host=0.0.0.0 \
