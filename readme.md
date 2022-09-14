@@ -13,12 +13,11 @@ This is the development repo for [Solana API](https://docs.solana.com/developing
 ### Getting Started
 
 1. Clone this repository down to your computer.
-2. Move in to the `/bin` folder where all of our Docker setup files are.
-3. Run `docker-compose build`
-4. Run `docker-compose up -d`
-5. Wait a few minutes (the server takes a while to initialize)
-6. Open web browser to `localhost:8080`
-7. Follow through the ContentBox wizard to setup the first user of the CMS.
+2. `chmod +x install.sh`
+3. `./install.sh`
+4. Wait a few minutes (the server takes a while to initialize)
+5. Open web browser to `localhost:8080`
+6. Follow through the ContentBox wizard to setup the first user of the CMS.
 
 
 ## Troubleshooting
