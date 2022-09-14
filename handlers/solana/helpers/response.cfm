@@ -32,8 +32,8 @@ try{
 	}
 
 } catch( any except ){
-	writeDump( arguments.responseData );
-	writeDump( except );
+	writeOutput("Error processing Solana response.")
+	writeOutput("#arguments.responseData#");
 	abort;
 }
 

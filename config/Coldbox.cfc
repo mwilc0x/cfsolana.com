@@ -23,7 +23,7 @@ component {
 			appName                  : getSystemSetting( "APPNAME", "ContentBox Modular CMS" ),
 			eventName                : "event",
 			// Development Settings
-			reinitPassword           : getSystemSetting( "COLDBOX_REINITPASSWORD", "@fwPassword@" ),
+			reinitPassword           : getSystemSetting( "COLDBOX_REINITPASSWORD", "B324E2669CE2639CF9EFA7B8521681E2" ),
 			reinitKey                : "fwreinit",
 			handlersIndexAutoReload  : false,
 			// Implicit Events
@@ -248,13 +248,13 @@ component {
 			 */
 			cbSecurity : {
 				// The global invalid authentication event or URI or URL to go if an invalid authentication occurs
-				"invalidAuthenticationEvent"  : "",
+				"invalidAuthenticationEvent"  : "echo.onAuthenticationFailure",
 				// Default Auhtentication Action: override or redirect when a user has not logged in
-				"defaultAuthenticationAction" : "redirect",
+				"defaultAuthenticationAction" : "override",
 				// The global invalid authorization event or URI or URL to go if an invalid authorization occurs
-				"invalidAuthorizationEvent"   : "",
+				"invalidAuthorizationEvent"   : "echo.onAuthorizationFailure",
 				// Default Authorization Action: override or redirect when a user does not have enough permissions to access something
-				"defaultAuthorizationAction"  : "redirect",
+				"defaultAuthorizationAction"  : "override",
 				// You can define your security rules here or externally via a source
 				// specify an array for inline, or a string (db|json|xml|model) for externally
 				"rules"                       : [],

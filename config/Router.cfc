@@ -11,7 +11,7 @@ component {
 		// Configuration
 		setValidExtensions( "xml,json,jsont,rss,html,htm,cfm,print,pdf,doc,txt" );
 		// Process Full Rewrites then true, else false and an `index.cfm` will always be included in URLs
-		setFullRewrites( false );
+		setFullRewrites( true );
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -22,6 +22,13 @@ component {
 		 * Go get Funky!
 		 *
 		 */
+
+		// Solana API Endpoints
+		get( "/api/solana/account/balance/:publicKey", "solana.account.getBalance" );
+		get( "/api/solana/account/info/:publicKey", "solana.account.getAccountInfo" );
+
+		post( "/api/solana/transaction/airdrop", "solana.transaction.requestAirdrop" );
+		get( "/api/solana/transaction/:signature", "solana.transaction.getTransaction" );
 
 		// Mappings
 		route( ":handler/:action" ).end();

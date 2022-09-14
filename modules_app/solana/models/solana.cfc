@@ -139,7 +139,7 @@ component accessors="true" {
 			var response = {
 				"status" = {
 					"code" = listFirst( httpResponse.statusCode, " " ),
-					"text" = listLast( httpResponse.statusText, " " )
+					"text" = " "
 				},
 				"data" = deserializeJSON( httpResponse.filecontent ),
 				"error" = httpResponse.errorDetail
