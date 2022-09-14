@@ -2,11 +2,15 @@
 
 This is the development repo for [Solana API](https://docs.solana.com/developing/clients/jsonrpc-api) integrated with [Adobe ColdFusion](https://coldfusion.adobe.com/).
 
-## Prerequisites
+## Running Locally
+
+### Prerequisites
 
 1. [Docker](https://www.docker.com/) or other container virtualization software.
+2. [Postman](https://www.postman.com/) - We will use this to test the API's. Download and import our specific [CF Solana Snapshot](https://www.getpostman.com/collections/393462fe546943d1a8c0).
+3. A Solana account is needed to call the Solana API. Download a Solana wallet such as [Phantom](https://phantom.app/download) to create a new account and receive a wallet address.
 
-## Getting Started
+### Getting Started
 
 1. Clone this repository down to your computer.
 2. Move in to the `/bin` folder where all of our Docker setup files are.
