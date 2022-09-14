@@ -15,10 +15,11 @@ This is the development repo for [Solana API](https://docs.solana.com/developing
 1. Clone this repository down to your computer.
 2. `chmod +x install.sh`
 3. `./install.sh`
-4. Wait a few minutes (the server takes a while to initialize)
+4. Wait a few minutes. The install script is running the full docker setup and the Lucee server can take a few minutes to fully initialize.
 5. Open web browser to `localhost:8080`
 6. Follow through the ContentBox wizard to setup the first user of the CMS.
-
+7. Use a tool like Postman to query the APIs.
+8. Note: for most API calls you will need to authorize through the User login route, using the username and password signed up with on the ContentBox wizard.
 
 ## Troubleshooting
 
