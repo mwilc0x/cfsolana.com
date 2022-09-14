@@ -34,4 +34,14 @@ services:
       DB_PORT: ${DB_PORT}
       DB_USER: ${DB_USER}
     volumes:
-      - ../:/app
+      - ../config:/app/config
+      - ../handlers:/app/handlers
+      - ../layouts:/app/layouts
+      - ../models:/app/models
+      - ../modules_app:/app/modules_app
+      - ../views:/app/views
+      - ../.cfconfig:/app/.cfconfig
+      - ../Application.cfc:/app/Application.cfc
+      - ../box.json:/app/box.json
+      - ../index.cfm:/app/index.cfm
+      - ../server.json:/app/server.json
