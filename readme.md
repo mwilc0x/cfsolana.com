@@ -30,3 +30,7 @@ This is the development repo for [Solana API](https://docs.solana.com/developing
 **Question**: How do I enter a docker container from the command line?
 
 **Answer**: First will need to list out all the running docker containers with `docker ps`. Find the container that want to enter and look for the name under the `NAMES` column. Then, run `docker exec -it <container_name> /bin/bash`. You will be moved into the docker container and can run commands from that system.
+
+**Question**: How do I remove the development docker setup once I am done?
+
+**Answer**: We included a tear down script `cleanup.sh` in the `bin` folder that will tear down everything, including the docker volumes. You can also manually stop the containers by name through Docker.
