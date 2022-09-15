@@ -4,7 +4,18 @@
 
 cd /app
 
-box install contentbox-installer --force
+# Check if we have already installed ContentBox
+
+FILE=/app/.cb-installed
+if [ -f "$FILE" ]; then
+    echo "$FILE exists. Skipping ContentBox install."
+else 
+    echo "$FILE does not exist."
+
+    box install contentbox-installer --force
+    touch /app/.cb-installed
+fi
+
 box install
 rm .env
 
