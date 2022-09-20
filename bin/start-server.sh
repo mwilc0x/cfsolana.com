@@ -17,6 +17,9 @@ else
 fi
 
 box install
+box install cors
+box install cbsecurity
+box install cborm
 rm .env
 
 cp /tmp/config/Coldbox.cfc /app/config/

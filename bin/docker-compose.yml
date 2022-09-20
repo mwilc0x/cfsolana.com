@@ -33,6 +33,7 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       DB_PORT: ${DB_PORT}
       DB_USER: ${DB_USER}
+      JWT_SECRET: ${JWT_SECRET}
     volumes:
       # - ../config:/app/config
       # contentbox overwrites our config on new install
